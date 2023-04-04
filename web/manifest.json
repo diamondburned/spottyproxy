@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "name": "mpw",
+  "short_name": "mpw",
+  "description": "mpw is a webapp for MasterPassword",
+  "theme_color": "#5fafd7",
+  "background_color": "#11171a",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "developer": {
+    "name": "diamondburned",
+    "url": "https://libdb.so"
+  },
+  "locales": {
+    "en-US": {
+      "name": "mpw",
+      "subtitle": "mpw is a webapp for MasterPassword",
+      "description": "mpw is a webapp for MasterPassword"
+    }
+  },
+  "default_locale": "en-US",
+  "permissions": {
+    "audio-channel-content": {
+      "description": "Needed to play this app's audio content on the content channel"
+    }
+  }
+}
